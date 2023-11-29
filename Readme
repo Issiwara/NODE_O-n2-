@@ -1,0 +1,2 @@
+docker build -t complex-node-app1 .
+docker run -p 3000:3000 complex-node-app1
