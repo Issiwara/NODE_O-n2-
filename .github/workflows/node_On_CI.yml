@@ -24,4 +24,4 @@ jobs:
         run: docker push ${{ secrets.DOCKER_USERNAME }}/node_on2
 
       - name: Remove Docker Image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/node_on2
+        run: docker rmi ${{ secrets.DOCKER_USERNAME }}/node_on2
